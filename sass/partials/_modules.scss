@@ -1,0 +1,53 @@
+.bg{
+    &-red{
+        background-color: $color__red!important;
+    }
+    &-violet{
+        background-color: $color__violet!important;
+    }
+    &-vred{
+        background-image: linear-gradient(135deg,$color__violet,$color__red);
+    }
+}
+.border{
+    &-red{
+        border-color: $color__red!important;
+    }
+    &-violet{
+        border-color: $color__violet!important;
+    }
+}
+.contact{
+    &-bg{
+        @include set-background($bg__contact-img,0,"top center","cover","fixed");
+    }
+}
+.login{
+    &-form{
+        @include set-background($bg__login-img,0,"top left","cover","fixed");
+    }
+}
+.opacity{
+    &-8{
+        opacity: 0.8;
+    }
+    &-9{
+        opacity: 0.9;
+    }
+}
+.register{
+    &-form{
+        @extend .login-form;
+    }
+}
+.text{    
+    &-red{
+        color: $color__red!important;
+    }
+    &-violet{
+        color: $color__violet!important;
+    }
+}
+textarea{
+    resize: none;
+}
