@@ -1,6 +1,23 @@
+.about{
+    &-desc{
+        @include set-background($bg__about-desc-img,0,"top right","cover","scroll");
+    }
+    &-ext{
+        @include set-background($bg__about-ext-img,0,"top left","cover","scroll");
+    }
+}
 .bg{
+    &-home{
+        @include set-background($bg__home-img,0,"top center","cover","scroll");
+    }
+    &-products{
+        @include set-background($bg__products-img,0,"center","cover","scroll");
+    }
     &-red{
         background-color: $color__red!important;
+    }
+    &-services{
+        @include set-background($bg__services-img,0,"center","cover","scroll");
     }
     &-violet{
         background-color: $color__violet!important;
@@ -10,6 +27,9 @@
     }
 }
 .border{
+    &-dark-red{
+        border-color: $color__dark-red!important;
+    }
     &-red{
         border-color: $color__red!important;
     }
@@ -41,6 +61,9 @@
     }
 }
 .text{    
+    &-dark-red{
+        color: $color__dark-red!important;
+    }
     &-red{
         color: $color__red!important;
     }
