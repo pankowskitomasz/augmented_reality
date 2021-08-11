@@ -25,30 +25,82 @@ body, html {
 .minh-100vh {
   min-height: 100vh;
 }
+/* line 14, ../../sass/partials/_minh.scss */
+.minh-footer-adj {
+  min-height: calc( 100vh - 57px );
+  min-height: -o-calc( 100vh - 57px );
+  min-height: -moz-calc( 100vh - 57px );
+  min-height: -webkit-calc( 100vh - 57px );
+}
 
 /* line 2, ../../sass/partials/_modules.scss */
+.about-desc {
+  background-attachment: scroll;
+  background-image: url(../img/about/about_desc.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../../sass/partials/_modules.scss */
+.about-ext {
+  background-attachment: scroll;
+  background-image: url(../img/about/about_ext.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 10, ../../sass/partials/_modules.scss */
+.bg-home {
+  background-attachment: scroll;
+  background-image: url(../img/home.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 13, ../../sass/partials/_modules.scss */
+.bg-products {
+  background-attachment: scroll;
+  background-image: url(../img/products.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 16, ../../sass/partials/_modules.scss */
 .bg-red {
   background-color: #c91746 !important;
 }
-/* line 5, ../../sass/partials/_modules.scss */
+/* line 19, ../../sass/partials/_modules.scss */
+.bg-services {
+  background-attachment: scroll;
+  background-image: url(../img/services.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 22, ../../sass/partials/_modules.scss */
 .bg-violet {
   background-color: #7553b1 !important;
 }
-/* line 8, ../../sass/partials/_modules.scss */
+/* line 25, ../../sass/partials/_modules.scss */
 .bg-vred {
   background-image: linear-gradient(135deg, #7553b1, #c91746);
 }
 
-/* line 13, ../../sass/partials/_modules.scss */
+/* line 30, ../../sass/partials/_modules.scss */
+.border-dark-red {
+  border-color: #840f2e !important;
+}
+/* line 33, ../../sass/partials/_modules.scss */
 .border-red {
   border-color: #c91746 !important;
 }
-/* line 16, ../../sass/partials/_modules.scss */
+/* line 36, ../../sass/partials/_modules.scss */
 .border-violet {
   border-color: #7553b1 !important;
 }
 
-/* line 21, ../../sass/partials/_modules.scss */
+/* line 41, ../../sass/partials/_modules.scss */
 .contact-bg {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -57,7 +109,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 26, ../../sass/partials/_modules.scss */
+/* line 46, ../../sass/partials/_modules.scss */
 .login-form, .register-form {
   background-attachment: fixed;
   background-image: url(../img/coming.jpg);
@@ -66,25 +118,29 @@ body, html {
   background-size: cover;
 }
 
-/* line 31, ../../sass/partials/_modules.scss */
+/* line 51, ../../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 34, ../../sass/partials/_modules.scss */
+/* line 54, ../../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
 }
 
-/* line 44, ../../sass/partials/_modules.scss */
+/* line 64, ../../sass/partials/_modules.scss */
+.text-dark-red {
+  color: #840f2e !important;
+}
+/* line 67, ../../sass/partials/_modules.scss */
 .text-red {
   color: #c91746 !important;
 }
-/* line 47, ../../sass/partials/_modules.scss */
+/* line 70, ../../sass/partials/_modules.scss */
 .text-violet {
   color: #7553b1 !important;
 }
 
-/* line 51, ../../sass/partials/_modules.scss */
+/* line 74, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
