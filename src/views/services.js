@@ -1,12 +1,17 @@
 import React,{Component} from "react";
-import ServicesContent from "../components/services_content";
+import Container from "../../node_modules/react-bootstrap/Container";
+import ServicesS1 from "../components/services-s1";
+import ServicesS2 from "../components/services-s2";
+import ServicesS3 from "../components/services-s3";
 
 class Services extends Component{
     render(){
-        return(          
-            <main className="minh-footer-adj bg-services">     
-                <ServicesContent/>
-            </main>
+        return(        
+            <Container fluid className="minh-footer-adj p-0">
+                <ServicesS1/>
+                <ServicesS2/>
+                <ServicesS3/>
+            </Container>    
         );
     }
 }
