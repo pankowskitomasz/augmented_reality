@@ -1,12 +1,17 @@
 import React,{Component} from "react";
-import ProductsContent from "../components/services_content";
+import Container from "../../node_modules/react-bootstrap/Container";
+import ProductsS1 from "../components/products-s1";
+import ProductsS2 from "../components/products-s2";
+import ProductsS3 from "../components/products-s3";
 
 class Products extends Component{
     render(){
-        return(          
-            <main className="minh-footer-adj bg-products">     
-                <ProductsContent/>
-            </main>
+        return(        
+            <Container fluid className="minh-footer-adj p-0">
+                <ProductsS1/>
+                <ProductsS2/>
+                <ProductsS3/>
+            </Container>    
         );
     }
 }
