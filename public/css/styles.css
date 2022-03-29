@@ -127,27 +127,61 @@ body, html {
   opacity: 0.9;
 }
 
-/* line 64, ../../sass/partials/_modules.scss */
+/* line 59, ../../sass/partials/_modules.scss */
+.products-s1, .services-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/products/products-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 62, ../../sass/partials/_modules.scss */
+.products-s2, .services-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/products/products-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 65, ../../sass/partials/_modules.scss */
+.products-s3, .services-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/products/products-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #666 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 77, ../../sass/partials/_modules.scss */
 .text-dark-red {
   color: #840f2e !important;
 }
-/* line 67, ../../sass/partials/_modules.scss */
+/* line 80, ../../sass/partials/_modules.scss */
 .text-red {
   color: #c91746 !important;
 }
-/* line 70, ../../sass/partials/_modules.scss */
+/* line 83, ../../sass/partials/_modules.scss */
 .text-violet {
   color: #7553b1 !important;
 }
 
-/* line 74, ../../sass/partials/_modules.scss */
+/* line 87, ../../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
+@media all and (max-width: 767px) {
+  /* line 93, ../../sass/partials/_modules.scss */
+  .products-s1, .products-s2, .products-s3, .services-s1, .services-s2, .services-s3 {
+    background-color: #666 !important;
+    background-blend-mode: multiply !important;
+  }
+}
 /* line 31, ../../sass/partials/_mixins.scss */
 .error-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -156,7 +190,7 @@ textarea {
 
 /* line 31, ../../sass/partials/_mixins.scss */
 .comingsoon-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
   background-position: top left;
   background-repeat: no-repeat;
@@ -165,7 +199,7 @@ textarea {
 
 /* line 31, ../../sass/partials/_mixins.scss */
 .privacy-s1 {
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
   background-position: top left;
   background-repeat: no-repeat;
