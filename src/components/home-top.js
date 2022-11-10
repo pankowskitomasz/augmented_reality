@@ -16,14 +16,14 @@ class HomeTop extends Component{
             </Link>;
         }
         return(        
-            <Container fluid className={"align-items-center py-3 d-flex h-50vh maxh-600 "+this.props.classExt}>
-                <Row className="mx-auto text-center w-100 py-5">
-                    <Col xs={12} lg={5} className="mx-auto text-dark p-0 d-flex align-items-end text-end order-2 order-lg-1">
+            <Container fluid className={"align-items-around pt-3 d-flex minh-100vh "+this.props.classExt}>
+                <Row className="mx-auto text-center w-100 pt-5">
+                    <Col xs={12} lg={7} className="mx-auto text-dark p-0 d-flex align-items-end text-end order-2 order-lg-1">
                         <img alt="about"
                             className="img-fluid mx-auto ms-md-start w-75"
                             src="img/home/home-img.png"/>
                     </Col>
-                    <Col xs={12} lg={7} className="mx-auto p-0 d-flex align-items-center order-1 order-lg-2">
+                    <Col xs={12} lg={5} className="mx-auto p-0 d-flex align-items-center order-1 order-lg-2">
                         <div className="p-5 text-lg-start text-center">
                             <h1 className="display-6 text-white fw-bold text-uppercase text-shadow">
                                 Augmented Reality
