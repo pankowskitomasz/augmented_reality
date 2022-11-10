@@ -16,8 +16,8 @@ class AboutDesc extends Component{
             </Link>;
         }
         return(        
-            <Container fluid className={"about-desc p-0 minh-50vh d-flex align-items-center py-3 border-bottom border-dark-red "+this.props.classExt}>
-                <Row className="mx-auto text-center w-100 pt-5 pb-2">
+            <Container fluid className={"about-desc p-0 minh-50vh d-flex align-items-center pt-3 border-bottom border-dark-red "+this.props.classExt}>
+                <Row className="mx-auto text-center w-100 pt-5">
                     <Col xs={12} md={7} className="text-center text-md-start p-4 d-flex align-items-center">
                         <div className="w-75 mx-auto text-shadow">
                             <h2 className="mb-3 mt-5 fw-bold text-white">
@@ -33,9 +33,9 @@ class AboutDesc extends Component{
                             {linking}
                         </div>
                     </Col>
-                    <Col xs={12} md={5} className="text-center mx-auto d-flex align-items-center">
+                    <Col xs={12} md={5} className="text-center mx-auto d-flex align-items-end justify-items-end">
                         <img alt="about"
-                            className="img-fluid w-75 mx-auto"
+                            className="img-fluid w-75 ms-auto"
                             src="img/about/about_desc_img.png"/>
                     </Col>
                 </Row>

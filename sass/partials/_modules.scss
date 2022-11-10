@@ -58,6 +58,7 @@
 .products,.services{
     &-s1{
         @include set-background(nth($bg_p,1),0,"top left","cover","scroll");
+        background-position-x: center!important;
     }
     &-s2{
         @include set-background(nth($bg_p,2),0,"top left","cover","scroll");
@@ -83,6 +84,10 @@
     &-violet{
         color: $color__violet!important;
     }
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "Audiowide";
+    letter-spacing: 1px;
 }
 textarea{
     resize: none;

@@ -6,11 +6,11 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class AboutExt extends Component{
     render(){
         return(        
-            <Container fluid className={"about-ext p-0 minh-50vh d-flex align-items-center py-3 "+this.props.classExt}>
+            <Container fluid className={"about-ext p-0 minh-50vh d-flex align-items-center pt-3 "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100">
-                    <Col xs={6} className="text-center mx-auto order-2 order-md-1 d-flex align-items-center">
+                    <Col xs={6} className="text-center me-auto order-2 order-md-1 d-flex align-items-end justify-items-start">
                         <img alt="about"
-                            className="img-fluid w-75 mx-auto"
+                            className="img-fluid w-75 me-auto"
                             src="img/about/about_ext_img.png"/>
                     </Col>
                     <Col xs={12} md={6} className="text-center text-md-start p-4 d-flex align-items-center order-1 order-md-2">
